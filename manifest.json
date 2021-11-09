@@ -1,0 +1,37 @@
+{
+  "name": "Layer Toggle",
+  "description": "Toggles a layer on a web page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://*/",
+    "http://*/"
+  ],
+  "action": {
+    "default_title": "Layer Toggle",
+    "default_icon": {
+      "64": "icon.png"
+    }
+  },
+  "icons": {
+    "64": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/",
+        "http://*/"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
