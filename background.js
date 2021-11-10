@@ -1,4 +1,4 @@
-const STORAGE_KEY = "layer-enabled-0301314611"; // must be unique to extension and match content.js
+const STORAGE_KEY = "layer-toggle-enabled-0301314611"; // must be unique to extension and match content.js
 
 /**
  * See https://developer.chrome.com/docs/extensions/reference/tabs/#type-Tab
