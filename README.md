@@ -2,6 +2,11 @@
 
 A template repository for a Google Chrome extension which toggles a layer on a web page.
 
+## Examples
+
+- [Mouse Block](https://github.com/davidding/mouse-block): a Chrome extension for keyboard navigation testing.
+- [Vision Block](https://github.com/davidding/vision-block): a Chrome extension for screen reader testing.
+
 ## Download
 
 Clone the repository or download the latest [release](https://github.com/davidding/layer-toggle/releases).
